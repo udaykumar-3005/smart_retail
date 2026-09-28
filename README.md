@@ -17,7 +17,7 @@ Tested with Python 3.13 and the package versions in `requirements.txt`. From the
 .venv\Scripts\python.exe -m streamlit run dashboard/app.py
 ```
 
-Open the local URL printed by Streamlit (normally http://localhost:8501). The first load reads the workbook and may take around 30 seconds; subsequent interactions reuse Streamlit's cached data. No API keys, accounts or database are needed. The workbook is read locally and never overwritten.
+Open the local URL printed by Streamlit (https://smartretail-2kkpc2ggxds5be82bmazqe.streamlit.app/). The first load reads the workbook and may take around 30 seconds; subsequent interactions reuse Streamlit's cached data. No API keys, accounts or database are needed. The workbook is read locally and never overwritten.
 
 For macOS/Linux, use `python3 -m venv .venv`, then `.venv/bin/python` in place of the Windows interpreter path. Open `notebook/smart_retail.ipynb` in VS Code/Jupyter and select this environment to run the analysis. The notebook works from either the project root or the notebook directory.
 
